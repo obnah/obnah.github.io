@@ -1,0 +1,28 @@
+## neato -Tpng -n 
+
+digraph MESI {
+
+node [fontsize=20, shape=octagon, regular=true];
+#edge [fontname="DejaVu Sans Mono:Bold", fontsize=16, labeldistance=7, labelangle=-5];
+edge [fontname="DejaVu Sans Mono", fontsize=16, labeldistance=7, labelangle=-5];
+
+M [ pos="2,4!" ];
+E [ pos="0,2!" ];
+S [ pos="4,2!" ];
+I [ pos="2,0!" ];
+
+M -> E [headlabel="a"];
+E -> M [headlabel="b"];
+M -> I [headlabel="c"];
+I -> M [headlabel="d"];
+M -> S [headlabel="e"];
+S -> M [headlabel="f"];
+E -> S [headlabel="g"];
+S -> E [headlabel="h"];
+E -> I [headlabel="i"];
+I -> E [headlabel="j"];
+I -> S [headlabel="k"];
+S -> I [headlabel="l"];
+
+}
+

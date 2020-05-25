@@ -1,0 +1,47 @@
+.gocanvas{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background-color: #ffc;
+  box-shadow: 0 4px 8px -2px rgba(0,0,0,0.8);
+  height: 500px;
+  width: 170%;
+  margin-bottom: 2rem;
+}
+
+#canvas{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background-color: #123;
+  box-shadow: 0 9px 20px -5px rgba(0,0,0,0.8);
+  overflow:none;
+}
+
+#aboutMeDiv{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background-color: #ffc;
+  box-shadow: 0 9px 20px -5px rgba(0,0,0,0.8);
+}
+
+#clock
+{
+    font-size:3em;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    background-color:#efefef;
+    padding:10px;
+    width:5em;
+    box-shadow:black 0.1em 0.1em 0.1em;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+
+
+
+/* Disable selection highlight on drag. */
+#canvas {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

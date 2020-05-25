@@ -1,0 +1,21 @@
+---
+layout: archive
+permalink: /program/
+title: "PROGRAM"
+author_profile: true
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.1"
+  overlay_image: assets/images/obnah-beijing-1.jpg
+  #cta_label: "Download"
+  #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Bo Han**](https://obnah.github.io)"
+excerpt: "hello world!..."
+
+---
+
+
+{% for post in site.categories.system %}
+    {% include archive-single.html %}
+{% endfor %}

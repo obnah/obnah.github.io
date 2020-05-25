@@ -1,0 +1,21 @@
+---
+layout: archive
+permalink: /system/
+title: "SYSTEM"
+author_profile: true
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_image: assets/images/obnah-olhuveli-1.jpg
+  #cta_label: "Download"
+  #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Bo Han**](https://obnah.github.io)"
+excerpt: "pieces of memory about system programming..."
+
+---
+
+
+{% for post in site.categories.program %}
+    {% include archive-single.html %}
+{% endfor %}

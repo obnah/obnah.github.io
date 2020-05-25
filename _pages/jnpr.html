@@ -1,0 +1,21 @@
+---
+layout: archive
+permalink: /jnpr/
+title: "Juniper Networks"
+author_profile: true
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_image: assets/images/obnah-beijing-2.jpg
+  #cta_label: "Download"
+  #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Bo Han**](https://obnah.github.io)"
+excerpt: "The greatest network devices are delivered from here ..."
+
+---
+
+
+{% for post in site.categories.JNPR %}
+    {% include archive-single.html %}
+{% endfor %}

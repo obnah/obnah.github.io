@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "System"
+    url: /system/
+  - title: "Program"
+    url: /program/
+  - title: Search
+    url: /search/
